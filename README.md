@@ -33,7 +33,3 @@ You want to replicate the entire local path on the virtual machine, to make the 
 ```docker-compose up```
 
 It is configured to run an nginx web server on port 10000 - you'll be able to access this through http://localhost:10000 or http://(docker-machine ip | boot2docker ip):10000
-
-### Todo
-
-* Log Symfony to docker-compose output
