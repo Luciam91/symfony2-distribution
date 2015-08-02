@@ -14,3 +14,11 @@ symfony_cache_and_logs:
   volumes:
     - /var/www/var/cache
     - /var/www/var/log
+
+#database:
+#  image: postgres
+#  environment:
+#    - POSTGRES_PASSWORD: postgres
+
+#memcached:
+#  - image: memcached
