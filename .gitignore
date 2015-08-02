@@ -1,0 +1,18 @@
+# composer
+bin/*
+!bin/sync
+!bin/console
+
+# Vagrant
+.vagrant
+
+# OSX
+.DS_Store
+
+# PHPStorm
+.idea
+atlassian-ide-plugin.xml
+
+# Backup Files
+*~
+

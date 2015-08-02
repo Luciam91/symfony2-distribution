@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Symfony Setup
+php bin/console --env=development assets:install --symlink web
+chown -R www-data:www-data -R /var/www/var/cache /var/www/var/logs
+
+# php5-fpm
+service php5-fpm start
+
+# nginx
+nginx
